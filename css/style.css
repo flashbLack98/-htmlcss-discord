@@ -17,10 +17,6 @@ header {
     margin: auto;
 }
 
-.inline_block{
-    display: inline-block;
-}
-
 .col_1_6{
     width: calc(100% / 6);
 }
@@ -51,6 +47,46 @@ header {
 /* FINE UTILITIES */
 
 
+
+.header__nav{
+    padding-top:20px ;
+    word-spacing: -10px;
+}
+
+.header__logo{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.header__link{
+    display: inline-block;
+    text-align: center;
+    word-spacing: 0px;
+}
+
+.header__link ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.header__link ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header__nav__button{
+    display: inline-block;
+    text-align: right;
+}
+
+.header__nav__button a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+/* FINE HEADER NAV */
 
 
 
