@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* UTILITIES */
+.container_with {
+    width: 1000px;
+}
+
+.color_white {
+    color: white;
+}
+
+.color_black {
+    color: rgb(35, 39, 42);
+}
+
+.color_purple {
+    color: rgb(114, 137, 218);
+}
+
+.color_lightpurple {
+    color: rgb(142, 162, 225);
+}
+
