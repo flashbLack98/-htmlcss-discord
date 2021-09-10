@@ -5,13 +5,14 @@
     font-family: 'Rubik', sans-serif;
 }
 
-header {
+.header {
     min-height: 100vh;
     background-image: url(../img/jumbo.png);
     background-size: contain;
     background-position: top;
     background-repeat: round;
 }
+
 
 /* UTILITIES */
 .container_width {
@@ -87,6 +88,8 @@ header {
     background-color: white;
     padding: 5px 10px;
     border-radius: 20px;
+    font-size: x-small;
+    font-weight: 600;
 }
 /* FINE HEADER NAV */
 
@@ -125,4 +128,51 @@ font-weight: 600;
 
 .header__contain__button a{
     margin: 0 10px;
+}
+/* FINE HEADER */
+
+
+/* INIZIO MAIN */
+.main{
+    height: 1000px;
+    width: 100%;
+}
+
+.main__container1{
+    height: 100vh;
+    position: relative;
+}
+
+.main__containerImgTitle{
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main__containerImgTitle::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main__img{
+  float: left;
+}
+
+.main__section{
+    height: 100px;
+    width: calc(100% / 6 * 2);
+    float: left;
+    margin-top: 35px;
+}
+
+.main__title{
+    font-size: xx-large;
+    color: rgb(35, 39, 42);
+}
+
+.main__text{
+
 }
