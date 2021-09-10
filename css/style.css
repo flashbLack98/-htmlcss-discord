@@ -90,14 +90,39 @@ header {
 }
 /* FINE HEADER NAV */
 
-.header__title{
+.header__contain{
     text-align: center;
+}
+
+.header__title{
     font-size:xxx-large;
     margin-top: 80px;
     color: white;
 }
 
 .header__text{
-    margin:30px auto;
+    margin:100px auto;
     color: white;
+    font-size: larger; 
+}
+
+.header__contain__button{
+text-decoration: none;
+border-radius: 20px;
+padding: 10px 25px;
+font-weight: 600;
+}
+
+.header__contain__button--white{
+    color: rgb(35, 39, 42);
+    background-color: white;
+}
+
+.header__contain__button--black{
+    color: white;
+    background-color:rgb(35, 39, 42) ;
+}
+
+.header__contain__button a{
+    margin: 0 10px;
 }
