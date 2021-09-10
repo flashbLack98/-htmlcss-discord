@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 header {
-    height: 80vh;
+    min-height: 100vh;
     background-image: url(../img/jumbo.png);
-    background-size: cover;
+    background-size: contain;
+    background-position: top;
+    background-repeat: round;
 }
 
 /* UTILITIES */
@@ -88,91 +90,14 @@ header {
 }
 /* FINE HEADER NAV */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .header__container{
-    padding-top: 20px;
-}
-
-
-.header__nav::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.header__logo{
-    float: left;
-    line-height: 34px;
-}
-
-.header__link{
+.header__title{
     text-align: center;
-    float: left;
-    line-height: 34px;
-}
-
-nav li{
-    display: inline-block;
-}
-
-nav li a{
+    font-size:xxx-large;
+    margin-top: 80px;
     color: white;
-    text-decoration: none;
-    padding: 15px;
 }
 
-nav a{
+.header__text{
+    margin:30px auto;
     color: white;
-    text-decoration: none;
-    float: right;
 }
-
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
