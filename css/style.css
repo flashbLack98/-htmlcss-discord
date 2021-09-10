@@ -138,9 +138,10 @@ font-weight: 600;
     width: 100%;
 }
 
-.main__container1{
+.main__container{
     height: 100vh;
     position: relative;
+    display: block;
 }
 
 .main__containerImgTitle{
@@ -169,10 +170,19 @@ font-weight: 600;
 }
 
 .main__title{
-    font-size: xx-large;
+    font-size: 40px;
     color: rgb(35, 39, 42);
 }
 
 .main__text{
+    margin-top: 40px;
+    word-spacing: 10px;
+}
 
+.main>div:nth-child(even){
+    background-color:rgb(246, 246, 246);
+}
+
+.main>div:nth-child(even) .main__img,.main__section{
+    float: right;
 }
